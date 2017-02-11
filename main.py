@@ -1,4 +1,4 @@
-# ssodam crawler for statistic purposes
+# ssodam crawler for educational, statistic and entertainment purposes
 # written in python 2.7.13
 
 import requests
@@ -120,6 +120,7 @@ def crawl():
 
     print "Crawl Done"
     f_posts.close()
+    session.close()
     return posts
 
 
